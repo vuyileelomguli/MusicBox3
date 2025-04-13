@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.musicbox3"
-    compileSdk = 34 // Changed from 35 to 34 for wider compatibility
+    compileSdk = 35 // Changed from 35 to 34 for wider compatibility
 
     defaultConfig {
         applicationId = "com.example.musicbox3"
@@ -40,7 +40,6 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
-
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
